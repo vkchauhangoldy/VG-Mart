@@ -3,6 +3,7 @@ import "./Header.css"
 import logo from "../../assets/logo.png"
 import { useSelector } from "react-redux";
 import { useState } from "react";
+
 const Header = () => {
 
     const cartItem = useSelector((data) => data.cart?.cart);
